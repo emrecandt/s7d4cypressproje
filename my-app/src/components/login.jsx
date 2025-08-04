@@ -5,6 +5,7 @@ const initialForm = {
   password: '',
   terms: false,
 };
+
 export default function Login() {
   const [formValue, setFormValue] = useState(initialForm);
 
@@ -93,5 +94,10 @@ export default function Login() {
         Gönder
       </button>
     </form>
+
+
+
+
+
   );
 }
